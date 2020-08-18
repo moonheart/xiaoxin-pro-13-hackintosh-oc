@@ -897,7 +897,7 @@
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
-			<false/>
+			<true/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
@@ -925,22 +925,7 @@
 			<integer>67</integer>
 		</dict>
 		<key>Entries</key>
-		<array>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string>Windows10</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Name</key>
-				<string>U-Win10</string>
-				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x14,0x0)/USB(0xF,0x0)/USB(0x1,0x0)/HD(1,GPT,86A2AF4A-9044-4BEF-AA82-0EB074533A3C,0x28,0x64000)/\EFI-win10\Microsoft\Boot\bootmgfw.efi</string>
-			</dict>
-		</array>
+		<array/>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
@@ -952,16 +937,16 @@
 			<key>BootProtect</key>
 			<string>None</string>
 			<key>DmgLoading</key>
-			<string>Signed</string>
+			<string>Any</string>
 			<key>ExposeSensitiveData</key>
 			<integer>6</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
-			<key>ScanPolicy</key>
+			<key>#ScanPolicy</key>
 			<integer>17760515</integer>
 			<key>Vault</key>
 			<string>Optional</string>
-			<key>##ScanPolicy</key>
+			<key>ScanPolicy</key>
 			<integer>0</integer>
 		</dict>
 		<key>Tools</key>
@@ -1031,7 +1016,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 alcid=100</string>
+				<string>-v keepsyms=1 alcid=100</string>
 				<key>csr-active-config</key>
 				<data>5wsAAA==</data>
 				<key>nvda_drv</key>
@@ -1110,9 +1095,9 @@
 			<key>JumpstartHotPlug</key>
 			<true/>
 			<key>MinDate</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>MinVersion</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 		</dict>
 		<key>Audio</key>
 		<dict>
