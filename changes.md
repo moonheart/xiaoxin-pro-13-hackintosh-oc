@@ -89,3 +89,40 @@
             </dict>
 
 ```
+
+``` xml
+		<key>Security</key>
+		<dict>
+			<key>AllowNvramReset</key>
+			<true/>
+			<key>AllowSetDefault</key>
+			<false/>
+			<key>ApECID</key>
+			<integer>0</integer>
+			<key>AuthRestart</key>
+			<false/>
+			<key>BootProtect</key>
+			<string>None</string>
+			<key>DmgLoading</key>
+			<string>Signed</string>
+			<key>EnablePassword</key>
+			<false/>
+			<key>ExposeSensitiveData</key>
+			<integer>6</integer>
+			<key>HaltLevel</key>
+			<integer>2147483648</integer>
+			<key>PasswordHash</key>
+			<data></data>
+			<key>PasswordSalt</key>
+			<data></data>
+			<key>SecureBootModel</key>
+			<string>Disabled</string>
+			<key>ScanPolicy</key>
+			<integer>0</integer>
+			<key>Vault</key>
+			<string>Optional</string>
+			<key>#ScanPolicy</key>
+			<integer>17760515</integer>
+		</dict>
+
+```
