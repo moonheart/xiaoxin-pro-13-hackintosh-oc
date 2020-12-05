@@ -771,12 +771,12 @@
 		<array/>
 		<key>Emulate</key>
 		<dict>
-			<key>DummyPowerManagement</key>
-			<false/>
 			<key>Cpuid1Data</key>
 			<data>7AYIAAAAAAAAAAAAAAAAAA==</data>
 			<key>Cpuid1Mask</key>
 			<data>/////wAAAAAAAAAAAAAAAA==</data>
+			<key>DummyPowerManagement</key>
+			<false/>
 			<key>MaxKernel</key>
 			<string></string>
 			<key>MinKernel</key>
@@ -893,7 +893,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>0</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1029,7 +1029,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v alcid=100 brcmfx-country=#a</string>
+				<string>alcid=100 brcmfx-country=#a</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
